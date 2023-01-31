@@ -1,0 +1,39 @@
+.newTaskForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 50%;
+  height: 54px;
+  left: calc(50% - 55%/2);
+  top: 173px;
+}
+
+.newTaskForm input {
+  border: 1px solid var(--gray-700);
+  background: var(--gray-500);
+  width: 100%;
+  height: 3rem;
+  padding: 0 0.5rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+}
+
+.newTaskForm button[type=submit] {
+  height: 3rem;
+  width: 7rem;
+  border-radius: 8px;
+  border: 0;
+  background: var(--blue-dark);
+  color: var(--white);
+  font-weight: bold;
+  font-size: 0.875rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
